@@ -1,0 +1,96 @@
+.container {
+    display: flex; /* Use flexbox to center the grid */
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Center the grid vertically */
+    flex-direction: column;
+}
+
+.jumbotron {
+    display: flex; /* Use flexbox to center the grid */
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Center the grid vertically */
+    flex-direction: column;
+    margin-bottom: 10vh;
+    text-align: center;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    column-gap: 15vh;
+    row-gap: 5vh;
+    margin-bottom: 16vh;
+}
+
+.grid-layout-head {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    column-gap: 20vh;
+    row-gap: 100px;
+    margin-bottom: 10vh;
+}
+
+.sector-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+
+.grid-item {
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-text {
+    margin-top: 15px;
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.name-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.info-text {
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.caption-text {
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 1px;
+}
+
+.jumbotron-text {
+    font-size: 90px;
+}
+
+.paragraph-text {
+    font-size: 24px;
+    text-align: center;
+}
+
+.sector-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.header-text {
+    margin-top: 10vh;
+    font-weight: 200;
+    text-align: center;
+    font-size: 10vh;
+}

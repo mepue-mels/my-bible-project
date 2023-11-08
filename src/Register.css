@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh;
+    width: 100%;
+    heigh: 100%;
+}
+
+.main-header-text {
+    text-align: center;
+    font-weight: 300;
+    font-size: 8vh;
+}
+
+.sub-header-text {
+    margin-top: 2vh;
+    text-align: center;
+    font-weight: 200;
+    font-size: 6vh;
+}
+
+.caption-header-text {
+    margin-top: 8vh;
+    text-align: center;
+    font-weight: 200;
+    font-size: 5vh;
+    margin-bottom: 1vh;
+}
+
+.small-text {
+    text-align: center;
+    font-weight: 200;
+    font-size: 2vh;
+    margin-bottom: 10vh;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+
+.forms-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.side-text {
+    font-weight: 300;
+    font-size: 2vh;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 2vh;
+}
+
+.email-input {
+    width: 23vh;
+    height: 3vh;
+    font-size: 2vh;
+    padding: 1vh;
+}
+
+.image-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bridge-image {
+    height: 40%;
+    width: 40%;
+}
+
+.submit-button {
+    background-color: orange;
+    color: white;
+    border-radius: 1vh;
+    border: none;
+    width: 10vh;
+    height: 4vh;
+    text-align: center;
+    font-size: 2vh;
+    font-weight: 300;
+    transition: 0.3s;
+}
+
+.submit-button:hover {
+    opacity: 0.7;
+    animation-delay: 0.5;
+    box-shadow: 3vh;
+}

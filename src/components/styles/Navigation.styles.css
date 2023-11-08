@@ -1,0 +1,25 @@
+.navbar {
+}
+
+.navbar-collapse {
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+.nav-item {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.logo-div {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 8px;
+    margin-left: 10vh;
+    margin-right: 1vh;
+}
+
+.h3 {
+    margin-left: 2vh;
+}
